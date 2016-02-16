@@ -13,6 +13,7 @@
 
  <b>Example:</b> http://localhost:8181/?url=http://google.pt 
  
- <b>Usage:</b> http://localhost:<portnumber>/?url= < urlEncoded > 
+ <b>Usage:</b> http://localhost:<portnumber>/?url= < urlEncoded >   
+ <b> Expected Output: </b>  { "imgBase64": "the image in base64 ..."}
 
 <b> < urlEncoded > </b> - The url to take a screenshot should be escaped using the [javascript function encodeURIComponent](http://www.w3schools.com/jsref/jsref_encodeuricomponent.asp)
