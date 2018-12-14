@@ -25,7 +25,7 @@ if (system.args.length !== 2) {
           console.log('Error code: ' + e.errorCode);   // it'll probably be 408 
           console.log('Error: ' + e.errorString); // it'll probably be 'Network timeout on resource'
           console.log('Error URL: ' +e.url);         // the url whose request timed out
-          resource.close(); /*Close http connection*/
+          response.close(); /*Close http connection*/
         };
 		page.open(url, function() {
 			page.evaluate(function() {
